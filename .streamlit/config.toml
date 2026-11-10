@@ -1,0 +1,19 @@
+[server]
+# 업로드 최대 크기(MB). app.py의 MAX_FILE_BYTES와 맞춘다.
+maxUploadSize = 10
+
+# "동양풍 관상가의 진단서": 한지 배경 + 먹색 글씨 + 붉은 인장색
+[theme]
+base = "light"
+primaryColor = "#B3261E"
+backgroundColor = "#F6F0E1"
+secondaryBackgroundColor = "#EDE2C8"
+textColor = "#2A2522"
+borderColor = "#D8C9A6"
+linkColor = "#B3261E"
+baseRadius = "0.6rem"
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+headingFont = "Nanum Myeongjo:https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap, serif"
+
+[theme.sidebar]
+backgroundColor = "#EFE5CC"
